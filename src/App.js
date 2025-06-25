@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import UserContact from "./components/UserContact";
+// import ImageCompressor from "./components/ImageCompressor";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<UserContact />} />
+        {/* <Route path="/compressor" element={<ImageCompressor />} /> */}
       </Routes>
       <Footer />
     </Router>
