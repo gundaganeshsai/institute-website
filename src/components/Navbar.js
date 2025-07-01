@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <nav style={styles.nav}>
-      <h2 style={styles.logo}>PNR Institute</h2>
+      <h2 style={styles.logo}>My Institute</h2>
 
       {isMobile ? (
         <>
